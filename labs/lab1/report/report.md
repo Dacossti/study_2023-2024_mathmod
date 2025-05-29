@@ -370,5 +370,5 @@ master. В файле lib/hello.html можно увидеть записи с �
 
 # Список литературы{.unnumbered}
 
-::: {#refs}
-:::
+1. Git [Электронный ресурс]. Wikimedia Foundation, Inc., 2024. URL: https: //ru.wikipedia.org/wiki/Git.
+2. GitHub [Электронный ресурс]. GitHub, Inc., 2024. URL: https://github.com/.

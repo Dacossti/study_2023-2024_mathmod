@@ -1,30 +1,23 @@
 ---
 ## Front matter
+title: "Презентация по лабораторной работе №1"
+subtitle: "Работа с Git"
+author: "Озьяс Стев Икнэль Дани"
+
+## Generic otions
 lang: ru-RU
-title: Лабораторная работа №1
-subtitle: Работа с git
-author:
-  - Демидова Е. А.
-institute:
-  - Российский университет дружбы народов, Москва, Россия
-date: 09 февраля 2024
 
-## i18n babel
-babel-lang: russian
-babel-otherlangs: english
-
-## Formatting pdf
+## Formatting
 toc: false
-toc-title: Содержание
 slide_level: 2
-aspectratio: 169
-section-titles: true
 theme: metropolis
 header-includes:
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
+- \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+- '\makeatletter'
+- '\beamer@ignorenonframefalse'
+- '\makeatother'
+aspectratio: 43
+section-titles: true
 ---
 
 # Информация
@@ -34,10 +27,10 @@ header-includes:
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * Демидова Екатерина Алексеевна
-  * студентка группы НКНбд-01-21
+  * Озьяс Стев Икнэль Дани
+  * студент группы НКНбд-01-21
   * Российский университет дружбы народов
-  * <https://github.com/eademidova>
+  * <https://github.com/Dacossti>
 
 :::
 ::: {.column width="30%"}
@@ -68,135 +61,135 @@ header-includes:
 
 ## Подготовка
 
-![Настройка git](image/1.png){#fig:001 width=70%}
+![Настройка git](image/image1.png){#fig:001 width=70%}
 
 ## Создание проекта
 
-![Создание репозитория](image/2.png){#fig:002 width=70%}
+![Создание репозитория](image/image2.png){#fig:002 width=70%}
 
 ## Внесение изменений
 
-![Внесение изменений в содержимое репозитория](image/3.png){#fig:003 width=70%}
+![Внесение изменений в содержимое репозитория](image/image3.png){#fig:003 width=70%}
 
 ## Внесение изменений
 
-![Внесение нескольких изменений в содержимое репозитория](image/4.png){#fig:004 width=50%}
+![Внесение нескольких изменений в содержимое репозитория](image/image4.png){#fig:004 width=50%}
 
 ## История
 
-![Просмотр истории](image/5.png){#fig:005 width=50%}
+![Просмотр истории](image/image5.png){#fig:005 width=50%}
 
 ## Получение старых версий
 
-![Просмотр разных версий репозитория](image/6.png){#fig:006 width=70%}
+![Просмотр разных версий репозитория](image/image6.png){#fig:006 width=70%}
 
 ## Создание тегов версий
 
-![Создание тегов версий](image/7.png){#fig:007 width=70%}
+![Создание тегов версий](image/image7.png){#fig:007 width=70%}
 
 ## Создание тегов версий
 
-![Переключение по имени тега и просмотр доступных тегов](image/8.png){#fig:008 width=70%}
+![Переключение по имени тега и просмотр доступных тегов](image/image8.png){#fig:008 width=70%}
 
 ## Отмена локальных изменений (до индексации)
 
-![Отмена локальных изменений (до индексации)](image/9.png){#fig:009 width=70%}
+![Отмена локальных изменений (до индексации)](image/image9.png){#fig:009 width=70%}
 
 ## Отмена проиндексированных изменений (перед коммитом)
 
-![Отмена проиндексированных изменений (перед коммитом)](image/10.png){#fig:010 width=70%}
+![Отмена проиндексированных изменений (перед коммитом)](image/image10.png){#fig:010 width=70%}
 
 ## Отмена коммитов
 
-![Отмена коммитов](image/11.png){#fig:011 width=70%}
+![Отмена коммитов](image/image11.png){#fig:011 width=70%}
 
 ## Удаление коммиттов из ветки
 
-![Удаление коммиттов из ветки](image/12.png){#fig:012 width=40%}
+![Удаление коммиттов из ветки](image/image12.png){#fig:012 width=40%}
 
 ## Удаление тега oops
 
-![Удаление тега oops](image/13.png){#fig:013 width=70%}
+![Удаление тега oops](image/image13.png){#fig:013 width=70%}
 
 ## Изменение предыдущего коммита
 
-![Изменение предыдущего коммита](image/14.png){#fig:014 width=50%}
+![Изменение предыдущего коммита](image/image14.png){#fig:014 width=50%}
 
 ## Перемещение файлов
 
-![Перемещение файлов](image/15.png){#fig:015 width=70%}
+![Перемещение файлов](image/image15.png){#fig:015 width=70%}
 
 ## Подробнее о структуре
 
-![Добавление нового файла в репозиторий](image/16.png){#fig:016 width=70%}
+![Добавление нового файла в репозиторий](image/image16.png){#fig:016 width=70%}
 
 ## Подробнее о структуре
 
-![Добавление нового файла в репозиторий](image/17.png){#fig:017 width=70%}
+![Добавление нового файла в репозиторий](image/image17.png){#fig:017 width=70%}
 
 ## Git внутри: Каталог .git
 
-![Каталог .git](image/18.png){#fig:018 width=70%}
+![Каталог .git](image/image18.png){#fig:018 width=70%}
 
 ## Работа непосредственно с объектами git
 
-![Работа непосредственно с объектами git](image/19.png){#fig:019 width=70%}
+![Работа непосредственно с объектами git](image/image19.png){#fig:019 width=70%}
 
 ## Работа непосредственно с объектами git
 
-![Поиск оригинального файла hello.html](image/20.png){#fig:020 width=50%}
+![Поиск оригинального файла hello.html](image/image20.png){#fig:020 width=50%}
 
 ## Создание ветки
 
-![Создание ветки](image/21.png){#fig:021 width=40%}
+![Создание ветки](image/image21.png){#fig:021 width=40%}
 
 ## Навигация по веткам
 
-![Просмотр логов новой ветки](image/22.png){#fig:022 width=40%}
+![Просмотр логов новой ветки](image/image22.png){#fig:022 width=40%}
 
 ## Навигация по веткам
 
-![Переключение между ветками](image/23.png){#fig:023 width=70%}
+![Переключение между ветками](image/image23.png){#fig:023 width=70%}
 
 ## Изменения в ветке master
 
-![Изменения в ветке master](image/24.png){#fig:024 width=70%}
+![Изменения в ветке master](image/image24.png){#fig:024 width=70%}
 
 ## Изменения в ветке master
 
-![Просмотр веток](image/25.png){#fig:025 width=40%}
+![Просмотр веток](image/image25.png){#fig:025 width=40%}
 
 ## Слияние
 
-![Слияние веток](image/26.png){#fig:026 width=40%}
+![Слияние веток](image/image26.png){#fig:026 width=40%}
 
 ## Создание конфликта
 
-![Создание конфликта](image/27.png){#fig:027 width=50%}
+![Создание конфликта](image/image27.png){#fig:027 width=50%}
 
 ## Разрешение конфликтов
 
-![Разрешение конфликта](image/28.png){#fig:028 width=50%}
+![Разрешение конфликта](image/image28.png){#fig:028 width=50%}
 
 ## Сброс ветки style
 
-![Поиск коммита перед слиянием](image/29.png){#fig:029 width=50%}
+![Поиск коммита перед слиянием](image/image29.png){#fig:029 width=50%}
 
 ## Сброс ветки style
 
-![Сброс ветки style](image/30.png){#fig:030 width=50%}
+![Сброс ветки style](image/image30.png){#fig:030 width=50%}
 
 ## Сброс ветки master
 
-![Поиск коммита перед конфликтом](image/31.png){#fig:033 width=50%}
+![Поиск коммита перед конфликтом](image/image31.png){#fig:033 width=50%}
 
 ## Сброс ветки master
 
-![Сброс ветки master](image/32.png){#fig:032 width=50%}
+![Сброс ветки master](image/image32.png){#fig:032 width=50%}
 
 ## Перебазирование
 
-![Перебазирование](image/33.png){#fig:033 width=50%}
+![Перебазирование](image/image33.png){#fig:033 width=50%}
 
 ## Слияние в ветку master
 
@@ -204,39 +197,39 @@ header-includes:
 
 ## Клонирование репозиториев
 
-![Клонирование репозиториев](image/35.png){#fig:035 width=40%}
+![Клонирование репозиториев](image/image35.png){#fig:035 width=40%}
 
 ## Что такое origin?
 
-![Просмотр имени по умолчанию удаленного репозитория](image/36.png){#fig:036 width=50%}
+![Просмотр имени по умолчанию удаленного репозитория](image/image36.png){#fig:036 width=50%}
 
 ## Удаленные ветки
 
-![Просмтр доступных веток](image/37.png){#fig:037 width=70%}
+![Просмтр доступных веток](image/image37.png){#fig:037 width=70%}
 
 ## Изменение оригинального репозитория
 
-![Изменение оригинального репозитория](image/38.png){#fig:038 width=70%}
+![Изменение оригинального репозитория](image/image38.png){#fig:038 width=70%}
 
 ## Изменение оригинального репозитория
 
-![Извлечение изменений](image/39.png){#fig:039 width=70%}
+![Извлечение изменений](image/image39.png){#fig:039 width=70%}
 
 ## Слияние извлеченных изменений
 
-![Слияние извлеченных изменений](image/40.png){#fig:040 width=70%}
+![Слияние извлеченных изменений](image/image40.png){#fig:040 width=70%}
 
 ## Добавление ветки наблюдения
 
-![Добавление ветки наблюдения](image/41.png){#fig:041 width=40%}
+![Добавление ветки наблюдения](image/image41.png){#fig:041 width=40%}
 
 ## Создание чистого репозитория
 
-![Создание чистого репозитория](image/42.png){#fig:042 width=70%}
+![Создание чистого репозитория](image/image42.png){#fig:042 width=70%}
 
 ## Отправка и извлечение изменений 
 
-![Отправка и извлечение изменений](image/43.png){#fig:043 width=40%}
+![Отправка и извлечение изменений](image/image43.png){#fig:043 width=40%}
 
 # Выводы
 
@@ -246,4 +239,3 @@ header-includes:
 
 1. Git [Электронный ресурс]. Wikimedia Foundation, Inc., 2024. URL: https: //ru.wikipedia.org/wiki/Git.
 2. GitHub [Электронный ресурс]. GitHub, Inc., 2024. URL: https://github.com/.
-
