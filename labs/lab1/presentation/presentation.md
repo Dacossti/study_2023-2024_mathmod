@@ -193,7 +193,7 @@ section-titles: true
 
 ## Слияние в ветку master
 
-![Слияние style в master](image/34.png){#fig:034 width=50%}
+![Слияние style в master](image/image34.png){#fig:034 width=50%}
 
 ## Клонирование репозиториев
 
@@ -239,3 +239,4 @@ section-titles: true
 
 1. Git [Электронный ресурс]. Wikimedia Foundation, Inc., 2024. URL: https: //ru.wikipedia.org/wiki/Git.
 2. GitHub [Электронный ресурс]. GitHub, Inc., 2024. URL: https://github.com/.
+
